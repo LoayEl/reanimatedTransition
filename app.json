@@ -4,10 +4,13 @@
     "web": {
       "bundler": "metro"
     },
-    "plugins": [
-      "expo-router"
-    ],
-    "name": "Reanimated",
-    "slug": "Reanimated"
+    "name": "reanimated-app",
+    "slug": "reanimated-app",
+    "android": {
+      "package": "com.supersimon.reanimatedapp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.supersimon.reanimatedapp"
+    }
   }
 }
