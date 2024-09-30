@@ -1,6 +1,5 @@
 import { Text, StyleSheet, Pressable, Image, View } from 'react-native';
 import React from 'react';
-import { BlurView } from 'expo-blur';
 import { useRouter } from 'expo-router';
 import Animated, { FadeInDown, FadeInLeft } from 'react-native-reanimated';
 import image from '../assets/images/supra.png';
@@ -46,12 +45,7 @@ const styles = StyleSheet.create({
 		backgroundColor: '#bdc3c7', 
 		alignItems: 'center',
 		borderRadius: 15, 
-		marginTop: 20, // Add some spacing from the top
-		shadowColor: '#000', // Shadow for a lifted effect
-		shadowOffset: { width: 0, height: 4 },
-		shadowOpacity: 0.3,
-		shadowRadius: 6,
-		elevation: 6, 
+		marginTop: 20, 
 	},
 	headerText: {
 		color: 'black',
